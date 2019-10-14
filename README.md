@@ -10,11 +10,11 @@ Jupyter notebook is is walkthrough of the implementation of the deep learning mo
 as final part of the project is convert the notebook to a python application that runs from command line. 
 
 # Software and Libaries
-Python
-NumPy
-pandas
-scikit-learn (v0.17)
-Matplotlib
-pytorch
-argparse
+- Python
+- NumPy
+- pandas
+- scikit-learn (v0.17)
+- Matplotlib
+- pytorch
+- argparse
 
