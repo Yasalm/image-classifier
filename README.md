@@ -17,4 +17,5 @@ as final part of the project is convert the notebook to a python application tha
 - Matplotlib
 - pytorch
 - argparse
+- seaborn
 
