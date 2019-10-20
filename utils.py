@@ -122,7 +122,7 @@ def predict(checkpintpath, image_path, topk, device):
     ''' Predict the class (or classes) of an image using a trained deep learning model.
     '''
     
-    # TODO: Implement the code to predict the class from an image file
+    # Loading pre-trained saved model 
     model = load_checkpoint(checkpintpath)
     model.to(device)
     
