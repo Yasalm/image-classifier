@@ -128,6 +128,10 @@ def predict(checkpintpath, image_path, topk, device):
     '''
 
     
+<<<<<<< HEAD
+=======
+    # Loading pre-trained saved model 
+>>>>>>> bb954659ff18979c07509cfb71267b0d04c01f00
     model = load_checkpoint(checkpintpath)
     model.to(device)
 
@@ -169,3 +173,10 @@ def save_checkpoint(model, save_dir, dataset):
                     'state_dict': model.state_dict()
                     }
     torch.save(checkpoint, save_dir)
+<<<<<<< HEAD
+=======
+
+
+    
+    
+>>>>>>> bb954659ff18979c07509cfb71267b0d04c01f00
